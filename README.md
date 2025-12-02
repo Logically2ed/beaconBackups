@@ -3,7 +3,7 @@ Writeup about the process and logic about making a backup system that is platfor
 
 ## Software
 This system takes advantage of a couple of pre exhisting softwares to make this all happen:
-- Restic Backup: This is the software that manages all the backing up and secuity of the data you want saved. It is a well consitered software suite and you can refer to their documentation for any more advanced configurations that what i have here.
+- Restic Backup: This is the software that manages all the backing up and secuity of the data you want saved. It is a well consitered software suite and you can refer to their documentation for any more advanced configurations that what I have here.
 - Wireguard: Wireguard will be handling the secure communication from the local file sorce to the backup location.
 - AutoFS: AutoFS will handle accidental power outages and wireguard VPN connection issues for using that VPN tunnel to mount the remote drive/folder. It works by not mounting the mount point untill it is accessed and then dismounts after a set amount of time if left inactive.
 
@@ -19,7 +19,7 @@ Future plans:
 - Uptime can be easily monitored by something like UptimeKuma pinging the IP of the VPN, but more comprehensive logging will be looked into.
 
 ## Hardware
-This setup can work with just about any hardware you have on hand but i wanted something specific.
+This setup can work with just about any hardware you have on hand but I wanted something specific.
 
 I wanted this to have some of the cheepest, smallest and most power efecient hardware that I could find with gigabit eathernet and a minimum of 1 USB3 port.
 
@@ -29,8 +29,8 @@ I also needed a sata hard drive usb3 adapter with auxilary power to feed to the 
 
 As a pile of parts, this is sufficient to get started but you will also need an enclosure, a fan and power if you want to make it compact.
 
-I have designed a 3D printable enclosure that can hold the NanoPi NEO3, the 3.5in HDD, the sata adapter, a 40mmx20mm 5v fan and a buck converter to power everything.
+I have designed a 3D printable enclosure that can hold the NanoPi NEO3, the 3.5in HDD, the sata adapter, a 40mmx20mm 5V fan and a buck converter to power everything.
 
-* [3D Model STL]()
-* [Wiring Instructions]()
-* Armbian install instructions
+* [3D Model STL]() (coming soon)
+* [Wiring Instructions]() (coming soon)
+* [Armbian install instructions](ArmbianInstallInstructions.md)
